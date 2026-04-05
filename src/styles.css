@@ -1,0 +1,141 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* BODY */
+body {
+  background: #f5f7fb;
+  color: #333;
+}
+
+/* APP CONTAINER */
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background: #4f46e5;
+  color: white;
+}
+
+/* SECTION HEADINGS */
+h2 {
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+/* CARD STYLE */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+/* DASHBOARD */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* SUMMARY CARDS */
+.summary-card {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* TRANSACTIONS */
+.transactions {
+  padding: 20px;
+}
+
+/* TABLE STYLE */
+.table {
+  width: 100%;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: white;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form input,
+.form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+/* FILTER BAR */
+.filter-bar {
+  margin-bottom: 15px;
+}
+
+.filter-bar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* SELECT */
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* INSIGHTS */
+.insights {
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .table-row {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

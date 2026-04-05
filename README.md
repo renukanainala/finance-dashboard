@@ -120,7 +120,7 @@ npm run dev
 Role Selection Screen:<img width="1886" height="882" alt="Screenshot 2026-04-05 211752" src="https://github.com/user-attachments/assets/d5fc62db-4653-4747-a99b-2fd8318b9f63" />
 
 
-Viewer Dashboard:
+**Viewer**:
 Dashboard Overview:<img width="1769" height="913" alt="Screenshot 2026-04-05 212041" src="https://github.com/user-attachments/assets/4b7117eb-fc08-40f2-9426-460320579813" />
 Charts & Insights:<img width="1431" height="858" alt="Screenshot 2026-04-05 212130" src="https://github.com/user-attachments/assets/0adfd00d-ad89-4e63-bdef-7a761f6ad197" />
 Transactions View:<img width="1442" height="892" alt="Screenshot 2026-04-05 212203" src="https://github.com/user-attachments/assets/61e14c24-b717-44e6-bfd6-a675e0e2a16d" />
@@ -131,7 +131,9 @@ Filter by Date:
 Search Functionality
 <img width="1664" height="343" alt="Screenshot 2026-04-05 212348" src="https://github.com/user-attachments/assets/db5e9db3-0e88-40b9-a106-8ec713df00db" />
 
-Admin:
+
+
+**Admin:**
 Dashboard Overview:<img width="1769" height="913" alt="Screenshot 2026-04-05 212041" src="https://github.com/user-attachments/assets/4b7117eb-fc08-40f2-9426-460320579813" />
 Charts & Insights:<img width="1431" height="858" alt="Screenshot 2026-04-05 212130" src="https://github.com/user-attachments/assets/0adfd00d-ad89-4e63-bdef-7a761f6ad197" />
 Transactions View:<img width="1442" height="892" alt="Screenshot 2026-04-05 212203" src="https://github.com/user-attachments/assets/61e14c24-b717-44e6-bfd6-a675e0e2a16d" />
@@ -148,8 +150,7 @@ Filter by Amount:
 ---
 
 ## 🚀 Live Demo
-
-(Add your deployed link here)
+(https://finance-dashboard-plum-beta.vercel.app)
 
 ---
 
